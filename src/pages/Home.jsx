@@ -16,7 +16,7 @@ const Home = () => {
               alt="Flowbite Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Dream Job
+              Startup Job
             </span>
           </Link>
           <button
@@ -25,6 +25,11 @@ const Home = () => {
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
+            onClick={() =>
+              document
+                .getElementById("navbar-default")
+                .classList.toggle("hidden")
+            }
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -75,7 +80,7 @@ const Home = () => {
         </div>
       </nav>
 
-      <div className="relative bg-white overflow-hidden">
+      <div className="relative bg-white overflow-hidden p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
         <div className="max-w-7xl mx-auto m-4 p-2">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
             <svg
@@ -96,17 +101,17 @@ const Home = () => {
                       <span className="block xl:inline">
                         We help you to find your
                       </span>
-                      <span className="block text-indigo-700 xl:inline">
-                        Dream Job
+                      <span className="block space-x-1 text-indigo-700 xl:inline">
+                        Job
                       </span>
                     </h1>
-                    <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                      DreamJob is the worldwide leader on insights about jobs
+                    <p className="mt-3 space-x-3 text-base text-gray-500 sm:mt-5 text-justify sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                      Startup Job is the worldwide leader on insights about jobs
                       and companies. Search millions of jobs and get the inside
                       scoop on companies with employee reviews, personalized
                       salary tools, and more. Hiring? Post a job for free.
                     </p>
-                    <div className="mt-5 sm:mt-8 m-10 sm:flex sm:justify-center text-right lg:justify-start">
+                    <div className="mt-5 sm:mt-8 m-1% p-3 sm:flex sm:justify-center text-right lg:justify-start">
                       <div className="rounded-md shadow">
                         <Link
                           to="/job"

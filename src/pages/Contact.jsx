@@ -1,11 +1,32 @@
 const Contact = () => {
   return (
-    <div className="mx-auto max-w-screen-md sm:text-center m-8 p-100">
-      <img
-        alt="Person wearing a hat"
-        className="mx-auto w-20px h-30 max-w-xs rounded-md"
-        src="https://img.freepik.com/free-vector/online-store-isometric-style_23-2147632454.jpg?t=st=1723165696~exp=1723169296~hmac=020280ce121011695110f0afb6f94159b67c686dd94606fe0a6d0aea884bffc3&w=740"
-      />
+    <div className="mx-auto max-w-screen-md p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 sm:text-center m-8 p-4">
+      <div className="flex justify-center items-center space-x-4 ">
+        <img
+          alt="Person wearing a hat"
+          className="w-340 h-340 max-w-xs rounded-md"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa7nc4RbNi-8Cqk6k6HlyLjDnzX9fGzWuKVw&s"
+        />
+        <img
+          alt="Person wearing a hat"
+          className="w-140 h-140 max-w-xs rounded-md"
+          src="https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/c91aa0cdba404cbd.jpg"
+        />
+        <img
+          alt="Person wearing a hat"
+          className="w-140 h-140 max-w-xs rounded-md"
+          src="https://evermos.com/home/wp-content/uploads/2022/02/m-1.jpg"
+        />
+        <img
+          alt="Person wearing a hat"
+          className="w-140 h-140 max-w-xs rounded-md"
+          src="https://i.pinimg.com/originals/c5/b8/62/c5b8629f2d33cee6008a49756b6b210a.png"
+        />
+      </div>
+
+      <b>
+        <p className="space-x-1">.</p>
+      </b>
 
       <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
         Sign up for our newsletter
@@ -61,13 +82,12 @@ const Contact = () => {
         </div>
       </form>
 
-      <footer className="bg-white dark:bg-gray-900">
-        <div className="mx-auto w-full max-w-screen-xl">
-          <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4"></div>
-          <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+      <footer className="fixed bottom-0  left-0 z-20 w-full p-1px   md:flex md:items-center  dark:border-gray-400">
+        <div className="w-full max-h-full text-end">
+          <div className="px-6  flex  dark:bg-gray-700 justify-center mb-6 md:flex md:items-center md:justify-between">
             <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-              © 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights
-              Reserved.
+              © 2024 <a href="https://flowbite.com/">Michat™</a>. All Rights By
+              Alviadn.
             </span>
             <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
               <a
@@ -124,7 +144,7 @@ const Contact = () => {
                 <span className="sr-only">Twitter page</span>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/alvi-adnan-58017422b/"
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
